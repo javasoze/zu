@@ -24,11 +24,6 @@ public class MockClusterManager implements ClusterManager {
   }
 
   @Override
-  public String getClusterPrefix() {
-    return "";
-  }
-
-  @Override
   public void shutdown() {    
     clusterMap.clear();
   }
